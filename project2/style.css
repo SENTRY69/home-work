@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.main-content img {
+    height: 100px;
+    margin-left: 5.30in;
+}
+.main-content ul{
+    display: flex;
+
+}
+.main-content li{
+    list-style: none;
+}
+.main-content a{
+    text-decoration: none;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .5s;
+}
+.main-content a:hover{
+    color: #2aa4aa;
+}
+.main-content button{
+    padding: 15px 25px;
+    margin-right: 3.361in;
+    background-color: #2aa4aa;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14pt;
+    transition: .4s;
+}
+.main-content button:hover{
+    background-color: #028282;
+}
+.bannar{
+    background-image: url(img/Asset\ 1.png);
+    max-width: 1920px;
+    height: 723px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.swts-content{
+    display: flex;
+    justify-items: center;
+    padding-top: 70px;
+    padding-left: 2.33in;
+    padding-right: 2.26in;
+    height: 500px;
+    width: 1462px;
+    background-color: #f9f9f9;
+}
+.swts-content, .swts-text{
+    margin-right: 70px;
+}
+.swts-content h2{
+    font-size: 42pt;
+    color: #2aa4aa;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.swts-content p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 35px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.swts-content button{
+    padding: 14px 25px;
+    background: #2aa4aa;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .5s;
+}
+.swts-content button:hover{
+    background-color: #028282;
+}
+.gallery, .gallery-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.gallery-title h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: #2aa4aa;
+}
+.gallery-title P{
+    font-size: 32PX;
+    font-weight: 300px;
+    color: #19767b;
+}
+.gallery-image{
+    padding: 20px 0;
+    height: 700px;
+}
