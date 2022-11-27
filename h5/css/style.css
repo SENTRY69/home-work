@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.div-continar{
+    max-width: 1150px;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+                                                    /** top-nav Start **/
+
+.top-nav-section{
+    background: #173a69;
+    padding: 15px 0;
+}
+.top-nav-section .div-continar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}                                                 
+.top-nav-section{
+    background: #173a69;
+    padding: 15px 0;
+}                                                
+.top-nav-section .contract-info .phn{
+    position: relative;
+    padding-left: 25px;
+}
+.top-nav-section .contract-info .phn::before{
+    content: "\f2a0";
+    font-family: fontawesome;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.top-nav-section .contract-info .email{
+    position: relative;
+    padding-left: 25px;
+}
+.top-nav-section .contract-info .email::before{
+    content: "\f0e0";
+    font-family: fontawesome;
+    position: absolute;
+    left: 5PX;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.top-nav-section .contract-info a{
+    color: #fff;
+    transition: .4s;
+}
+.top-nav-section .contract-info a:hover{
+    color: #a1badc;
+}
+.top-nav-section .socil-colam{
+    width: 50%;
+    text-align: right;
+}
+.top-nav-section .socil-colam a i{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 15px;
+    transition: 0.4s;
+}
+.top-nav-section .socil-colam a i:hover{
+    color: #a1badc;
+}
+
+                                                    /** top-nav End **/
+
+                                                    /** top-menu bar start **/
+
+.nav-menu-section .main-colam{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav-menu-section .logo-colam{
+    width: 40%;
+    padding: 20px 0;
+}
+.nav-menu-section .menu-colam{
+    width: 60%;
+    text-align: right;
+}
+.nav-menu-section .menu-colam ul{
+    list-style: none;
+}
+.nav-menu-section .menu-colam ul li{
+    display: inline-block;
+}
+.nav-menu-section .menu-colam ul li a{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 52px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 0.4s;
+}
+.nav-menu-section .menu-colam ul li a:hover{
+    background-color: #fbfbfb;
+    border-bottom: 4px solid #000;
+}
+
+                                                    /** top-menu bar end **/
+
+                                                    /** banner-section start **/
+
+.banner-section{
+    position: relative;
+}
+.banner-section .banner-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( 10%, -60%);
+}                                                   
+.banner-section .banner-image{
+    background-image: url(/img/banner.png);
+    width: 100%;
+    height: 528px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-section .banner-title p{
+    text-align: justify;
+    width: 500px;
+    font-size: 14pt;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.banner-section .banner-title h1{
+    font-size: 60pt;
+    font-weight: 600;
+}
+.banner-section .banner-title h3{
+    font-size: 17pt;
+    font-weight: 600;
+}
+.banner-section .Contact-Us{
+    padding: 10px 30px;
+    border: none;
+    background: #173a69;
+    color: #fff;
+    font-size: 14pt;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.banner-section .Contact-Us:hover{
+    background-color: #0669f2;
+}
+.banner-section .Get-Started{
+    padding: 8px 30px;
+    border: 2px solid #173a69;
+    background: none;
+    color: #173a69;
+    font-size: 14pt;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+.banner-section .Get-Started:hover{
+    background-color: #173a69;
+    color: #fff;
+}
+                                                    /** banner-section end **/
